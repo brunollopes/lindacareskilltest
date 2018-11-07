@@ -1,0 +1,12 @@
+
+spring:
+    application.name: GSewa-API
+    mvc.view:
+        prefix: /
+        suffix: .html
+    jackson:
+        date-format:  dd-MMM-yy HH:mm:ss
+        time-zone: GMT
+        default-property-inclusion: non_null
+        serialization:
+            INDENT_OUTPUT: false
